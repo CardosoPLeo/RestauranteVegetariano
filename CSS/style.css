@@ -1,0 +1,115 @@
+.fundo{
+    background-color: #b6fcb6;
+}
+
+body{
+    font-family: 'Acme', sans-serif;
+}
+header{
+    background-color: darkorange;
+    padding: 50px 0;
+
+}
+nav{
+    top: 110px;
+    left: 0;
+}
+.menu{
+    display: inline-block;
+    position: relative;
+    width: 940px;
+    margin: 0;
+}
+nav li{
+    font-weight: bold;
+    display: inline;
+    padding: 0 0 0 20px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #07a507;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color:#FFFFFF;
+    text-decoration: underline;
+} 
+.logo{
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
+    width: 300px;
+    height: 200px;
+}
+.titulo-principal{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 1em 1em;
+    clear: left;
+    color: #07a507;
+}
+
+.principal p{
+    text-align: center;
+    clear: left;
+}
+.titulo{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;
+    color: #07a507;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.beneficios{
+    padding: 3em 0;
+}
+
+.itens{
+    line-height: 1.5;   
+    vertical-align: top;
+}
+.itens::before{
+    content: "\272F";
+}
+
+/*pseudo elementos :nth-child()*/
+.itens:first-child{
+    font-weight: bold;
+}
+
+.mapa{
+    margin: 0 0 2em;
+    text-align: center;
+    clear: left;
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-localizacao{
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer{
+    color: #FFFFFF;
+    text-align: center;
+    background-color: darkorange;
+    padding: 40px 40px;
+}
