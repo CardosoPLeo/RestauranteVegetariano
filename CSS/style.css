@@ -89,10 +89,6 @@ nav a:hover{
     content: "\272F";
 }
 
-.itens:first-child{
-    font-weight: bold;
-}
-
 .mapa{
     margin: 0 0 2em;
     text-align: center;
@@ -106,6 +102,11 @@ nav a:hover{
 .mapa-localizacao{
     width: 940px;
     margin: 0 auto;
+}
+#svb{
+    text-decoration: none;
+    color:#07a507;
+
 }
 .produtos{
     width: 940px;
@@ -219,9 +220,10 @@ footer{
     padding: 40px 40px;
 }
 
-.rodape-dados a{
+.reserva{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
+    color: #07a507 ;
 }
 
 
