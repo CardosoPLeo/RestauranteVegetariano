@@ -5,6 +5,7 @@
 body{
     font-family: 'Acme', sans-serif;
 }
+
 header{
     background-color: darkorange;
     padding: 50px 0;
@@ -36,11 +37,11 @@ nav a:hover{
     text-decoration: underline;
 } 
 .logo{
-    display: inline-block;
+    display:inline-block;
     position: absolute;
     vertical-align: top;
-    width: 300px;
-    height: 200px;
+    width: 375px;
+    height: 275px;
 }
 .titulo-principal{
     text-align: center;
@@ -52,6 +53,7 @@ nav a:hover{
 }
 
 .principal p{
+    font-size: 18px;
     text-align: center;
     clear: left;
 }
@@ -65,7 +67,7 @@ nav a:hover{
 }
 
 .conteudo-beneficios{
-    width: 640px;
+    width: 550px;
     margin: 0 auto;
 }
 
@@ -87,7 +89,6 @@ nav a:hover{
     content: "\272F";
 }
 
-/*pseudo elementos :nth-child()*/
 .itens:first-child{
     font-weight: bold;
 }
@@ -106,6 +107,110 @@ nav a:hover{
     width: 940px;
     margin: 0 auto;
 }
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos h2{
+    margin-bottom: 5px;
+}
+.produtos img{
+    width: 230px;
+    align-content: center;
+}
+.produtos li:hover{
+    border-color:darkorange;
+}
+
+.produtos li:active{
+    border-color: #088C19;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid 2px #FFFFFF;
+    border-radius: 15px;
+
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao{
+    font-size: 18px;
+}
+.preco-produto{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+.video{
+    width: 720px;
+    margin: 2em auto ;
+}
+
+form{
+    margin: 40px 60px;
+    
+}
+
+form label, form legend{
+    display: block;
+    margin: 0 0 10px;
+}
+.input-padrap{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 25%;
+}
+.checkbox{
+    margin: 15px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color:#07a507;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 60px;
+}
+thead{
+    background-color: darkorange;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
 
 footer{
     color: #FFFFFF;
@@ -113,3 +218,22 @@ footer{
     background-color: darkorange;
     padding: 40px 40px;
 }
+
+.rodape-dados a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 480px){
+  
+}
+
+@media screen and (max-width: 640px){
+
+}
+
+@media screen and (max-width: 740px){
+  
+}
+
