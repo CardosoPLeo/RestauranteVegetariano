@@ -228,14 +228,34 @@ footer{
 
 
 @media screen and (max-width: 480px){
-  
+  nav, .menu, .mapa, .mapa-localizacao{
+      width: 100%;
+  }
+
+  .logo{
+    position: absolute;
+    vertical-align: top;
+  }
+  .principal, .titulo-principal, .titulo{
+      text-align: center;
+  }
 }
 
 @media screen and (max-width: 640px){
-
+    nav, .menu , .mapa, .mapa-localizacao {
+        width: 100%;
+    }
+    .principal, .titulo-principal, .titulo{
+       text-align: center;
+    }
 }
 
 @media screen and (max-width: 740px){
-  
+    nav, .menu, .mapa, .mapa-localizacao {
+        width: 100%;
+    }
+    .principal, .titulo-principal, .titulo{
+        text-align: center;
+    }
 }
 
