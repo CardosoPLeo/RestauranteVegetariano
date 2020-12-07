@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" lang="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastros</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+    <body class="fundo">
+        <header>
+            <div class="menu"></div>
+                 <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./produtos.html">pratos</a></li>
+                        <li><a href="./categoria.html">Categorias</a></li>
+                        <li><a href="./institucional.html">Sobre vegetarianismo</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <main>
+       
+            <section>
+                <div class="cadProd">        
+                    <h2 class="cadTitulo">Cadastro de Produtos</h2>
+                    <table id="lista"></table>
+                    <p id="paginacao"></p>
+                    <p id="novoProduto">Novo</p>
+                    <div id="divForm">
+                        <h3>Produto</h3>
+                        <form onsubmit="return false;" id="formulario">
+                            <input type="hidden" id="frmProdutoCodigo">
+                            <label>Código:</label>
+                             <input type="text" id="frmCodigo">
+
+                            <label>Descricao:</label>
+                             <input type="text" id="frmNome">
+
+                            <label>Título:</label>
+                            <input type="text" id="frmtitulo">
+
+                            <label>Categoria:</label>
+                             <input type="text" id="frmCategotia">
+
+                             <label>Valor:</label>
+                             <input type="text" id="frmValor">
+
+                            <label>Imagem:</label>
+                            <input type="image" id="frmImagem">
+
+                            <label>Quantidade: </label>
+                            <input type="text" id="frmQtd">
+                            
+                            <label>Loja:</label>
+                            <input type="text" id="frmLoja"><br>
+
+                            <input type="hidden" id="frmloja" value="Restaurante"><br>
+                            <button type="button" id="incluirAlterarProduto">Novo/Alterar</button>
+                        </form>
+                    <div>
+                </div>
+            </section>
+            <section>
+                <div class="cadCat">        
+                    <h2 class="cadTitulo">Cadastro de Categoria</h2>
+                    <table id="lista"></table>
+                    <p id="paginacao"></p>
+                    <p id="novoCategoria">Nova</p>
+                    <div id="divForm">
+                        <h3>Categoria</h3>
+                        <form onsubmit="return false;" id="formulario">
+                            <input type="hidden" id="frmProdutoCodigo">
+                            <label>Nome</label> 
+                            <input type="text" id="frmNome"><br>
+                            <input type="hidden" id="frmloja" value="Restaurante"><br>
+                            <button type="button" id="incluirAlterarCategoria">Nova/Alterar</button>
+                        </form>
+                    <div>
+                </div>
+            </section>
+        </main>
+    </body>
+    <script src="./JavaScript/metodosProduto.js"></script>
+    <script src="./JavaScript/metodosCategoria.js"></script> 
+</html>
